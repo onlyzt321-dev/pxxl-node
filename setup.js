@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const url = 'https://github.com/XTLS/Xray-core/releases/download/v25.10.15/Xray-linux-64.zip';
+const url = 'https://github.com/XTLS/Xray-core/releases/download/v26.11.9/Xray-linux-64.zip';
 const zip = path.join(__dirname, 'xray.zip');
 const bin = path.join(__dirname, 'web-worker');
 function get(u, file) {
